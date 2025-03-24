@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+
+section {
+    min-height: 100vh;  /* 100vh ensures each section takes up the full viewport height */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Believer {
+    background-color: #f4f4f4;
+}
+
+#About {
+    background-color: #e0e0e0;
+}
+
+#Projects {
+    background-color: #ccc;
+}
+
+#Contact {
+    background-color: #b0b0b0;
+}
